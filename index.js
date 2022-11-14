@@ -10,7 +10,7 @@ export default function arrify(value) {
 	if (typeof value === 'string') {
 		return [value];
 	}
-
+	// 不理解
 	if (typeof value[Symbol.iterator] === 'function') {
 		return [...value];
 	}
